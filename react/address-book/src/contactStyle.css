@@ -1,0 +1,92 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	letter-spacing: 0.1em;
+	
+}
+
+main {
+	display: grid;
+	grid-gap: 10px;
+	width: 80%;
+	margin: 20px 100px;
+}
+
+.selectContact {
+    display: flex;
+	flex-direction: row;
+    align-items: space-around;
+}
+
+.contactPreview {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: space-around;
+	
+}
+
+.contactFull {
+	background-image: radial-gradient(circle, white, #CCE2FF);
+	width: 40%;
+	text-align: left;
+	margin: 10px;
+	padding: 30px;
+	border-radius: 15px;
+	font-size: 1.6em;
+	box-shadow: 2px 2px 8px #999;
+	font-weight: lighter;
+}
+
+
+button {
+	width: 200px;
+	padding: 10px;
+	margin: 10px;
+	border-radius: 15px;
+	background-color: #CCE2FF;
+	font-size: 18px;
+	background-image: linear-gradient(#CCE2FF, white);
+	box-shadow: 2px 2px 8px #999;
+	
+}
+
+button:hover {
+	opacity: 0.5;
+}
+
+h1 {
+	font-weight: lighter;
+	font-size: 4em;
+}
+
+h2 {
+	font-weight: lighter;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+header {
+	min-height: 50px;
+	margin-bottom: 20px;
+	border-bottom: solid thin #999;
+	padding-bottom: 20px;
+}
+
+footer {
+	min-height: 50px;
+	margin-top: 20px;
+	border-top: solid thin #999;
+	padding: 30px 5px;
+}
+
+.align-right
+{
+	margin-left: 90%;
+}
+
